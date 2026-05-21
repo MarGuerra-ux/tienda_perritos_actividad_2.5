@@ -1,4 +1,4 @@
-name: Test Workflow
+﻿name: Test Workflow
 
 on:
   push:
@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hola Mundo
-        run: echo "GitHub Actions funcionando"
+      - name: Hola
+        run: echo "Workflow funcionando"
